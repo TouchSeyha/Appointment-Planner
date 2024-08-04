@@ -1,6 +1,9 @@
 #root {
   padding: 30px;
   font-family: "Open Sans", sans-serif;
+  max-width: clamp(320px, 90%, 1000px);
+  /* additional recommendation */
+  margin: auto;
 }
 
 nav > a {
@@ -31,6 +34,7 @@ h2 {
 }
 
 section {
+  margin-bottom: 20px;
 }
 
 hr {
@@ -39,7 +43,7 @@ hr {
   margin: 20px 0;
 }
 
-input[type="submit"] {
+button[type="submit"] {
   background: #03a8d8;
   border-radius: 4px;
   color: #ffffff;
@@ -54,7 +58,7 @@ input[type="submit"] {
   margin-bottom: 0px;
 }
 
-input[type="submit"] {
+button[type="submit"] {
   cursor: pointer;
 }
 
